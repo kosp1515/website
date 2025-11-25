@@ -119,8 +119,7 @@ ul li{
 
 
 ::placeholder{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #3d5649;
+    font-family:  Georgia,Garamond, 'Times New Roman', Times, serif;    color: #3d5649;
 }
 #button {
     display: block; 
@@ -134,9 +133,31 @@ ul li{
     outline-offset: -2px;
     background-color: rgba(0, 31, 33, 0.7);    
     color:#c8cea6;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-family:  Georgia,Garamond, 'Times New Roman', Times, serif;    
 }
 #button:hover{
     outline-style: solid;
+}
+
+
+#status {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+
+.statusSuccess {
+    color:#c8cea6;
+    font-family:  Georgia,Garamond, 'Times New Roman', Times, serif;
+    
+}
+
+
+.statusError {
+    color: #333;
+    background-color: #FF9800; 
+    border: 1px solid #F57C00;
 }

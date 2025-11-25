@@ -23,13 +23,19 @@
         </ul>
         </nav>
     </header>
-    <form action="" class="contactForm">
-        <input type="text" id="name" autocomplete="off" required placeholder="Your Name">
-        <input type="email" id="email"  required placeholder="Your Email">
-        <input type="text" id="subject" required placeholder="Subject">
-        <textarea id="message" required placeholder="Your Message" maxlength="100"></textarea>
-        <input type="submit" id="button">
+    
+    <div id="status"></div>
+    <form id="contactForm">
+        <input type="text" id="name" name="name" autocomplete="off" required placeholder="Your Name">
+        <input type="email" id="email" name="email"  required placeholder="Your Email">
+        <input type="text" id="subject" name="subject" placeholder="Subject">
+        <textarea id="message" name="message" required placeholder="Your Message" maxlength="100"></textarea>
+        <input type="submit" id="button" name="button">
     </form>
+    
 
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="submit.js"></script>
 </body>
 </html>
