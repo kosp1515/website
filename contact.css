@@ -1,0 +1,79 @@
+body{
+    background-image: url(gea2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    color: aliceblue;
+    background-color: rgba(0, 31, 33, 0.4);
+    background-blend-mode: color-burn;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    box-sizing: border-box;
+    height: 150px;
+    
+}
+header h1{
+    margin: 0;
+    padding: 0;
+    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 50px;
+    
+}
+header h2{
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    font-family:  Georgia,Garamond, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+
+
+#name{
+    display: flex;
+    margin: 15px auto;
+    height: 25px;
+    width: 200px;
+    border-radius: 0.5;
+    outline-color: green;
+}
+
+#email{
+    display: flex;
+    margin: 15px auto;
+    height: 25px;
+    width: 200px;
+    border-radius: 0.5;
+    outline-color: green;
+
+
+}
+
+#message{
+    display: flex;
+    margin: 5px auto;
+    height: 70px;
+    width: 200px;
+    border-radius: 0.5;
+    outline-color: green;
+    text-align: start;
+
+
+}
+::placeholder{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#button {
+    display: block; 
+    width: 100px;
+    height: 30px; 
+    margin: 15px auto; 
+    border-radius: 0.7;
+}
