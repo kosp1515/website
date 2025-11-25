@@ -1,14 +1,14 @@
 body{
     background-image: url(gea2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
 }
 #header{
-    color: aliceblue;
+    color: #c8cea6;
     background-color: rgba(0, 31, 33, 0.4);
     background-blend-mode: color-burn;
+    
     width: 100%;
     margin: 0;
     margin-bottom: 30px;
@@ -16,6 +16,12 @@ body{
     box-sizing: border-box;
     height: 150px;
     
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 25px;
 }
 header h1{
     margin: 0;
@@ -34,6 +40,30 @@ header h2{
     font-weight: lighter;
 }
 
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a:link,
+a:visited,
+a:hover,
+a:active{
+    color: #c8cea6;
+    text-decoration: none;
+}
+
+ul li{
+    margin: 0 20px;
+    font-family:  Georgia,Garamond, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+
+    
+
+}
+
 
 
 #name{
@@ -41,8 +71,10 @@ header h2{
     margin: 15px auto;
     height: 25px;
     width: 200px;
-    border-radius: 0.5;
-    outline-color: green;
+    border-radius: 0.5px;
+    outline-style: none;
+    outline-width: 2px;
+    outline-color: #c8cea6;
 }
 
 #email{
@@ -50,9 +82,21 @@ header h2{
     margin: 15px auto;
     height: 25px;
     width: 200px;
-    border-radius: 0.5;
-    outline-color: green;
+    border-radius: 0.5px;
+    outline-style: none;
+    outline-width: 2px;
+    outline-color: #c8cea6;
 
+}
+#subject{
+    display: flex;
+    margin: 15px auto;
+    height: 25px;
+    width: 200px;
+    border-radius: 0.5px;
+    outline-style: none;
+    outline-width: 2px;
+    outline-color: #c8cea6;
 
 }
 
@@ -61,19 +105,38 @@ header h2{
     margin: 5px auto;
     height: 70px;
     width: 200px;
-    border-radius: 0.5;
-    outline-color: green;
+    border-radius: 0.5px;
+    outline-style:none;
+    outline-width: 2px;
+    outline-color: #c8cea6;
     text-align: start;
 
 
 }
+#name:focus,#email:focus,#subject:focus,#message:focus{
+    outline-style: solid;
+}
+
+
 ::placeholder{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3d5649;
 }
 #button {
     display: block; 
     width: 100px;
     height: 30px; 
     margin: 15px auto; 
-    border-radius: 0.7;
+    border-radius: 10.5px;
+    outline-style: none;
+    outline-width: 2px;
+    outline-color: #c8cea6;
+    outline-offset: -2px;
+    background-color: rgba(0, 31, 33, 0.7);    
+    color:#c8cea6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#button:hover{
+    outline-style: solid;
 }
