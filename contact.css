@@ -22,11 +22,12 @@ header nav{
     justify-content: center;
     margin-bottom: 10px;
     margin-top: 25px;
+    
 }
 header h1{
     margin: 0;
     padding: 0;
-    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+    font-family: Garamond,Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     font-size: 50px;
     
@@ -59,19 +60,80 @@ ul li{
     margin: 0 20px;
     font-family:  Georgia,Garamond, 'Times New Roman', Times, serif;
     font-size: 1.2em;
-
+    
+    outline-style: none;
+    outline-width: 2px;
+    
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    
     
 
 }
+ul li:hover{
+    background-color: rgba(255,255,255,0.1);
+    outline-color: #0f3f26;
+    outline-style: solid;
+}
+
+#frameTransparent{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 900px;
+    height: 600px;
+    display: flex;
+    margin: auto;
+    border-radius: 45px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#getintouch{
+    display: flex;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-family:  Garamond, Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: #c8cea6;
+    font-style: italic;
 
 
+}
+#Email{
+    text-align: left;
+    width: auto;
+    margin-left: 35px;
+    margin-top: auto;
+    margin-right: auto;
+    font-family:  Garamond, Georgia, 'Times New Roman', Times, serif;
+    color: #c8cea6;
+
+}
+#icon{
+    display: flex;
+    margin-left: 10px;
+    width: 10%;
+    padding: 20px;
+    font-size: 4em;
+    color: #c8cea6;
+
+}
+#icon:hover{
+    color:#3d5649;
+}
+
+#right{
+    margin-right: 100px;
+    margin-top: 110px;
+    
+}
 
 #name{
     display: flex;
     margin: 15px auto;
-    height: 25px;
-    width: 200px;
-    border-radius: 0.5px;
+    height: 40px;
+    width: 350px;
+    border-radius: 7px;
     outline-style: none;
     outline-width: 2px;
     outline-color: #c8cea6;
@@ -80,32 +142,22 @@ ul li{
 #email{
     display: flex;
     margin: 15px auto;
-    height: 25px;
-    width: 200px;
-    border-radius: 0.5px;
+    height: 40px;
+    width: 350px;
+    border-radius: 7px;
     outline-style: none;
     outline-width: 2px;
     outline-color: #c8cea6;
 
 }
-#subject{
-    display: flex;
-    margin: 15px auto;
-    height: 25px;
-    width: 200px;
-    border-radius: 0.5px;
-    outline-style: none;
-    outline-width: 2px;
-    outline-color: #c8cea6;
 
-}
 
 #message{
     display: flex;
     margin: 5px auto;
-    height: 70px;
-    width: 200px;
-    border-radius: 0.5px;
+    height: 150px;
+    width: 350px;
+    border-radius: 7px;
     outline-style:none;
     outline-width: 2px;
     outline-color: #c8cea6;
@@ -123,8 +175,8 @@ ul li{
 }
 #button {
     display: block; 
-    width: 100px;
-    height: 30px; 
+    width: 350px;
+    height: 40px; 
     margin: 15px auto; 
     border-radius: 10.5px;
     outline-style: none;
