@@ -1,3 +1,7 @@
+*{
+    font-family: arial,sans-serif;
+}
+
 body{
     background-image: url(gea2.jpg);
     background-size: cover;
@@ -27,7 +31,6 @@ header nav{
 header h1{
     margin: 0;
     padding: 0;
-    font-family: Garamond,Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     font-size: 50px;
     
@@ -36,7 +39,6 @@ header h2{
     margin: 0;
     margin-top: 15px;
     padding: 0;
-    font-family:  Georgia,Garamond, 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: lighter;
 }
@@ -58,7 +60,6 @@ a:active{
 
 ul li{
     margin: 0 20px;
-    font-family:  Georgia,Garamond, 'Times New Roman', Times, serif;
     font-size: 1.2em;
     
     outline-style: none;
