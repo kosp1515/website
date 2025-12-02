@@ -23,7 +23,7 @@ body{
 }
 header nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: 10px;
     margin-top: 25px;
     
@@ -46,9 +46,11 @@ header h2{
 .menu ul{
     display: flex;
     justify-content: center;
+    
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: auto
+    ;
 }
 a:link,
 a:visited,
@@ -62,10 +64,11 @@ ul li{
     margin: 0 20px;
     font-size: 1.2em;
     
+    
     outline-style: none;
     outline-width: 2px;
     
-    width: 90px;
+    width: 120px;
     height: 20px;
     text-align: center;
     border-radius: 3px;
@@ -73,6 +76,7 @@ ul li{
     
 
 }
+
 ul li:hover{
     background-color: rgba(255,255,255,0.1);
     outline-color: #0f3f26;

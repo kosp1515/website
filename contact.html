@@ -12,15 +12,15 @@
     </head>
 <body>
     <header id="header">
-        <h1>Kospanos Nikos</h1>
-        <h2>Department of Information and Electronic Engineering, IHU</h2>
+        <h1>Κοσπανός Νίκος</h1>
+        <h2>Τμήμα Μηχανικών Πληροφορικής και Ηλεκτρονικών Συστημάτων, ΔΙ.ΠΑ.Ε</h2>
         <nav class="menu">
         <ul class="menu">
-            <li><a href="main.html" id="main">Main</a></li>
-            <li><a href="portfolio.html" id="portfolio">Portfolio</a></li>
-            <li><a href="art.html" id="art">Art</a></li>
-            <li><a href="contact.html" id="contact">Contact</a></li>
-            <li><a href="about.html" id="about">About Me</a></li>
+            <li><a href="main.html" id="main">Αρχική</a></li>
+            <li><a href="portfolio.html" id="portfolio">Χαρτοφυλάκιο</a></li>
+            <li><a href="art.html" id="art">Φωτογραφία</a></li>
+            <li><a href="contact.html" id="contact">Επικοινωνία</a></li>
+            <li><a href="about.html" id="about">Σχετικά</a></li>
         
         </ul>
         </nav>
@@ -29,7 +29,7 @@
     <div id="status"></div>
     <div id="frameTransparent">
         <div id="left">
-        <h1 id="getintouch">Get in touch!</h1>
+        <h1 id="getintouch">Επικοινωνία</h1>
         <div id="comms">
             <h2 id="Email">Email:<br>kospanosnikos@gmail.com</h2>
             <a target=_blank href="https://www.linkedin.com/in/kospanosnikolaos/" id="icon"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -38,10 +38,10 @@
         </div>
         <div id="right">
     <form id="contactForm">
-        <input type="text" id="name" name="name" autocomplete="off" required placeholder="Your Name">
-        <input type="email" id="email" name="email"  required placeholder="Your Email">
-        <textarea id="message" name="message" required placeholder="Your Message" maxlength="100"></textarea>
-        <input type="submit" id="button" name="button">
+        <input type="text" id="name" name="name" autocomplete="off" required placeholder="Ονοματεπώνυμο">
+        <input type="email" id="email" name="email"  required placeholder="Email">
+        <textarea id="message" name="message" required placeholder="Μήνυμα" maxlength="100"></textarea>
+        <input type="submit" id="button" name="button" value="Υποβολή" onclick="removeForm()">
     </form>
     </div>
     </div>
@@ -50,5 +50,6 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="submit.js"></script>
+    <script src="remove.js"></script>
 </body>
 </html>

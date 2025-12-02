@@ -20,7 +20,7 @@ window.onload = function() {
 
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, this)
             .then(function() {
-                statusDiv.textContent = 'Message sent! Thank you for contacting me.';
+                statusDiv.textContent = 'Το μήνυμα εστάλη!';
                 statusDiv.className = 'statusSuccess';
                 //document.getElementById('contactForm').reset();
             }, function(error) {
