@@ -81,3 +81,38 @@ ul li:hover{
     outline-color: #0f3f26;
     outline-style: solid;
 }
+
+#frameTransparent {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 90%;             
+  max-width: 1400px;      
+  min-height: 600px;     
+  margin: 50px auto;
+  border-radius: 45px;
+  padding: 40px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 30px;
+}
+
+#description {
+  text-align: center;
+  color: #c8cea6;
+  font-size: 2rem;
+  width: 100%;
+}
+
+#photos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
+  width: 100%; 
+}
+
+img {
+  width: 100%;
+  height: 300px;      
+  object-fit: cover;  
+  border-radius: 20px;
+}
