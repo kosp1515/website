@@ -37,10 +37,14 @@
         </div>
         </div>
         <div id="right">
+            
     <form id="contactForm">
-        <input type="text" id="name" name="name" autocomplete="off" required placeholder="Ονοματεπώνυμο">
+        <div id="errorName"></div>
+        <input type="text" id="name" name="name" autocomplete="off" required placeholder="Ονοματεπώνυμο" onblur="errorEmpty(name,errorName)">
+        <div id="errorEmail"></div>
         <input type="email" id="email" name="email"  required placeholder="Email">
-        <textarea id="message" name="message" required placeholder="Μήνυμα" maxlength="100"></textarea>
+        <div id="msgOver"></div>
+        <textarea id="message" name="message" required placeholder="Μήνυμα" maxlength="100" onfocus="charOver()"></textarea>
         <input type="submit" id="button" name="button" value="Υποβολή" onclick="removeForm()">
     </form>
     </div>
@@ -51,5 +55,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="submit.js"></script>
     <script src="remove.js"></script>
+    <script src="errorEmpty.js"></script>
+    <script src="charOverflow.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 *{
-    font-family: arial,sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,sans-serif;
 }
 
 body{
@@ -7,6 +7,7 @@ body{
     background-size: cover;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 #header{
     color: #c8cea6;
@@ -18,7 +19,7 @@ body{
     margin-bottom: 30px;
     padding: 0;
     box-sizing: border-box;
-    height: 150px;
+    height: 165px;
     
 }
 header nav{
@@ -31,6 +32,8 @@ header nav{
 header h1{
     margin: 0;
     padding: 0;
+    position: relative;
+    left: 15px;
     font-style: italic;
     font-size: 50px;
     
@@ -39,6 +42,8 @@ header h2{
     margin: 0;
     margin-top: 15px;
     padding: 0;
+    position: relative;
+    left: 15px;
     font-style: italic;
     font-weight: lighter;
 }
@@ -70,6 +75,7 @@ ul li{
     
     width: 120px;
     height: 20px;
+    padding: 5px;
     text-align: center;
     border-radius: 3px;
     
@@ -84,7 +90,7 @@ ul li:hover{
 }
 
 #frameTransparent{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
     width: 900px;
     height: 600px;
     display: flex;
@@ -98,7 +104,7 @@ ul li:hover{
     margin-left: 35px;
     margin-top: 10px;
     font-size: 4em;
-    color: #c8cea6;
+    color: black;
     font-style: italic;
 
 
@@ -109,7 +115,7 @@ ul li:hover{
     margin-left: 35px;
     margin-top: auto;
     margin-right: auto;
-    color: #c8cea6;
+    color: black;
 
 }
 #icon{
@@ -118,7 +124,7 @@ ul li:hover{
     width: 10%;
     padding: 20px;
     font-size: 4em;
-    color: #c8cea6;
+    color: black    ;
 
 }
 #icon:hover{
@@ -168,7 +174,7 @@ ul li:hover{
 
 
 }
-#name:focus,#email:focus,#subject:focus,#message:focus{
+#name:focus,#email:focus,#message:focus{
     outline-style: solid;
 }
 
@@ -192,7 +198,7 @@ ul li:hover{
 }
 
 
-#status {
+#status,#msgOver {
     margin-top: 15px;
     padding: 10px;
     border-radius: 4px;
