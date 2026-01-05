@@ -39,12 +39,12 @@
         <div id="right">
             
     <form id="contactForm">
-        <div id="errorName"></div>
-        <input type="text" id="name" name="name" autocomplete="off" required placeholder="Ονοματεπώνυμο" onblur="errorEmpty(name,errorName)">
-        <div id="errorEmail"></div>
-        <input type="email" id="email" name="email"  required placeholder="Email">
-        <div id="msgOver"></div>
-        <textarea id="message" name="message" required placeholder="Μήνυμα" maxlength="100" onfocus="charOver()"></textarea>
+        <div id="errorName" class="error"></div>
+        <input type="text" id="name" name="name" autocomplete="off" required placeholder="Ονοματεπώνυμο" onblur="errorEmpty('name','errorName')">
+        <div id="errorEmail" class="error"></div>
+        <input type="email" id="email" name="email"  required placeholder="Email" onblur="errorEmpty('email','errorEmail')">
+        <div id="msgOver" class="error"></div>
+        <textarea id="message" name="message" required placeholder="Μήνυμα" maxlength="101" oninput ="charOver()"></textarea>
         <input type="submit" id="button" name="button" value="Υποβολή" onclick="removeForm()">
     </form>
     </div>

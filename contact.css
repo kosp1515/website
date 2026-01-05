@@ -176,6 +176,7 @@ ul li:hover{
 }
 #name:focus,#email:focus,#message:focus{
     outline-style: solid;
+    
 }
 
 
@@ -217,4 +218,7 @@ ul li:hover{
     color: #333;
     background-color: #FF9800; 
     border: 1px solid #F57C00;
+}
+.error{
+    color: red;
 }
